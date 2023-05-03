@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ukraine</title>
+</head>
+<body>
+    <header class="header">
+      <div class="header_container">
+          <div class="header_logo"> 
+                <img src="assets/img/sunflower-svgrepo-com.svg" alt="" class="logo">
+                <p class="header_logo_text">Розквітне!</p>
+            </div>
+            <nav class="menu overlay" id="myNav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul class="menu_list overlay-content">
+                    <li class="menu_list_item">
+                        <a href="#hero" class="menu_list_item_link">Головна</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#quote" class="menu_list_item_link">Цитати</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#gallery" class="menu_list_item_link">Дивовижні люди</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#position" class="menu_list_item_link">Цифри</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#video" class="menu_list_item_link">Привіт, світе!</a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#" class="menu_list_item_link">Інфо</a>
+                    </li>
+                </ul>
+            </nav>
+            <span style="font-size:30px; cursor:pointer; color: #FFAE2B" class="span" onclick="openNav()">&#9776;</span>
+      </div>
+    </header>
+
+    <main>
+        <!-- hero section -->
+        <section class="hero" id="hero">
+            <div class="hero_container">
+                <p class="hero_text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <h1 class="hero_title">І розквітне Україна</h1>
+                <button class="hero_btn">hjhjhjhjhjj</button>
+            </div>
+        </section>
+
+        <!-- quote section -->
+        <section class="quote" id="quote">
+            <h4></h4>
+    <div class="quote_container">
+                <div class="quote_box">
+                    <img src="assets/img/cover.png" alt="" class="quote_top">
+                    <p class="quote_text">"Самостійну державу може здобути собі український народ тільки власною боротьбою і трудом."</p>
+                    <p class="quote_auther">С. Бандера</p>
+                </div>
+                <div class="quote_box">
+                    <img src="assets/img/cover.png" alt="" class="quote_top">
+                    <p class="quote_text">"Ми б'ємось за те, чому нема ціни в усьому світі, – за Батьківщину."</p>
+                    <p class="quote_auther">О. Довженко</p>
+                </div>
+                <div class="quote_box">
+                    <img src="assets/img/cover.png" alt="" class="quote_top">
+                    <p class="quote_text">"Любіть Україну у сні й наяву, вишневу свою Україну, красу її вічно живу і нову і мову її солов'їну"</p>
+                    <p class="quote_auther">В. Сосюра</p>
+                </div>
+    </div>
+        </section>
+
+    <!-- gallery section -->
+    <section class="gallery" id="gallery">
+        <h4 class="gallery_title">Дивовижні люди!</h4>
+        <hr class="underline">
+        <div class="gallery_container">
+            <img src="assets/img/left.svg" class="prev controls" id="prev_btn" alt="">
+            <div class="slider_wrapper">
+                <div class="slider">
+                    <div class="gallery_card current_card">
+                        <img src="assets/img/zsu-vijsko-armiya1.jpg" alt="" class="gallery_card_img">
+                        <h3 class="gallery_card_title">ЗСУ</h3>
+                    </div>
+                    <div class="gallery_card current_card">
+                        <img src="assets/img/qWpd_NBy1WMy9Gls0KarWM6JcgqqZ3X4.jpeg" alt="" class="gallery_card_img">
+                        <h3 class="gallery_card_title">Азовсталь</h3>
+                    </div>
+                    <div class="gallery_card current_card">
+                        <img src="assets/img/pryvyd-kyyeva-1536x1024.webp" alt="" class="gallery_card_img">
+                        <h3 class="gallery_card_title">Привид Києва</h3>
+                    </div>
+                    <div class="gallery_card current_card">
+                        <img src="assets/img/doctor.jpg" alt="" class="gallery_card_img">
+                        <h3 class="gallery_card_title">Українські лікарі</h3>
+                    </div>
+                    <div class="gallery_card current_card">
+                        <img src="assets/img/volonteer.png" alt="" class="gallery_card_img">
+                        <h3 class="gallery_card_title">Волонтери</h3>
+                    </div>
+                    <div class="gallery_card current_card" >
+                        <img src="assets/img/myrni-zhyteli-1536x1024.webp" alt="" class="gallery_card_img">
+                        <h3 class="gallery_card_title">Мирні жителі Херсону</h3>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/righ.svg" class="next controls" alt="" >
+        </div>
+        <p class="gallery_text" id="position">І ще багато інших людей героїзм, яких захоплює. <br> Українці - сильний і відьнй народ, який не забуває своїх героїв. <br> Обов'язково після нашої перемоги Україна розквітне яскравішим цвітом ніж будь коли!</p>
+    </section>
+
+    <!-- position section -->
+    <section class="position">
+        <div class="position_top">
+            <h4 class="gallery_title">Цифри війни</h4>
+            <hr class="underline">
+        </div>
+        <div class="position_wrapper">
+            <div class="position_cover">
+                <div class="position_container">
+                    <p class="position_title">4,8 млн.</p>
+                    <p class="position_text">біженців</p>
+                </div>
+                <div class="position_container">
+                    <p class="position_title">8 тис.</p>
+                    <p class="position_text">загиблих цивільних</p>
+                </div>
+                <div class="position_container">
+                    <p class="position_title">4,8 млн.</p>
+                    <p class="position_text">ВПО</p>
+                </div>
+                <div class="position_container">
+                    <p class="position_title">100%</p>
+                    <p class="position_text" id="video">Вірять у нашу перемогу!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- video section -->
+    <section class="video" >
+        <div class="video_container">
+            <h3>Привіт, світе!</h3>
+            <iframe width="760" height="415" src="https://www.youtube.com/embed/kC2hyiMR1Qg"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- donat section -->
+    <!-- <section class="donat">
+        <div class="donat_container">
+        <div class="donat_cover">
+                <p class="donat_container_title">Хочеш допомогти?</p>
+                <p class="donat_container_text">Залиш донат</p>
+                <button class="donat_container_btn">
+                    <a href="https://savelife.in.ua/">Перейти →</a>
+                </button>
+            </div>
+        </div>
+    </section> -->
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="footer_container">
+            <div class="footer_logo">
+                <img src="assets/img/sunflower-svgrepo-com.svg" alt="" class="logo">
+                <p class="header_logo_text">Розквітне!</p>
+            </div>
+            <div class="info">
+                <p class="info_title">Інструменти</p>
+                <a href="https://vikna.tv/video/lyudy/100-dniv-vijny-ta-100-peremog-ukrayincziv-yakymy-geroyichnymy-vchynkamy-vidznachylys-dyvovyzhni-lyudy-ukrayiny/">Інформація</a>
+                <p>Figma - дизай</p>
+                <img src="assets/img/figma-svgrepo-com.svg" alt="">
+                <p>VS Code - розробка сайту</p>
+                <img src="assets/img/vscode.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/menu.js"></script>
+</body>
+</html>

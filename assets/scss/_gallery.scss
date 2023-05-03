@@ -1,0 +1,119 @@
+.gallery {
+    padding: 30px;
+    text-align: center;
+    
+    &_title{
+        margin: 0;
+        color: #FFAE2B;
+        margin-top: 55px;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 6px;
+        @media (max-width: 768px) {
+           font-size: 24px;
+        }
+        @media (max-width: 426px) {
+            margin-top: 20px;
+           font-size: 16px;
+        }
+    }
+    
+        .underline{
+            color: #ACA592;
+            margin: 0 auto;
+            width: 250px;
+            @media (max-width: 768px) {
+               width: 173px;
+            }
+            @media (max-width: 526px) {
+              margin-bottom: 30px;
+            }
+            @media (max-width: 426px) {
+               width: 137px;
+            }
+    
+    }
+
+    &_text {
+        color: #ACA592;
+        @media (max-width: 526px) {
+          margin-top: 30px;
+        }
+
+    }
+
+    &_card {
+        color: #fff;
+        padding: 41px;
+        text-align: center;
+        border: 1px solid #4B4136;
+        transition: border .3s;
+        &:hover{
+            border: 1.5px solid #FFAE2B;
+            transition: .5s;
+        }
+        @media (max-width: 426px) {
+           padding: 20px 10px;
+        }
+        
+        &_img {
+            width: 305px;
+            height: 190px;
+            margin-bottom: 20px;
+            box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.8);
+            @media (max-width: 426px) {
+                width: 240px;
+                height: 160px;
+            }
+        }
+    }
+    
+    .gallery_container {
+        gap: 20px;
+        margin: 75px;
+        display: flex;
+        overflow-x: auto;
+        align-items: center;
+        flex-direction: row;
+        &::-webkit-scrollbar {
+            display: none;
+          }
+          @media (max-width: 526px) {
+            margin: -20px;
+          }
+    }
+
+    .slider_wrapper {
+        overflow-x: auto;
+          &::-webkit-scrollbar {
+              display: none;
+            }
+  
+      .slider {
+          gap: 15px;
+          display: flex;
+          flex-flow: row nowrap;
+          @media (max-width: 1024px) {
+              gap: 20px;
+          }
+          @media (max-width: 768px) {
+              gap: 10px;
+          }
+      }
+      }
+
+    .prev, .next {
+        width: 30px;
+        height: 30px;
+        opacity: .3;
+        transition: opacity, width, height .3s;
+
+        &:hover {
+            opacity: 1;
+            width: 35px;
+            height: 35px;
+            transition: .3s;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.footer {
+    padding: 50px 100px;
+    border-top: 1px solid #aca592dd;
+
+    &_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+    &_logo {  
+        gap: 8px;
+        display: flex;
+        align-items: center;
+  
+        .logo {
+            height: 30px;
+            width: 30px;
+        }
+
+      &_text {
+          font-size: 24px;
+          color: #FFAE2B;
+          transition: color .3s;
+  
+          &:hover {
+              color: #fffb00;
+              transition: .3s;
+            }
+        }
+    }
+
+    .info {
+
+        &_title {
+            color: #FFAE2B;
+            font-weight: 500;
+            font-size: 24px;
+        }
+    }
+
+    img {
+        width: 35px;
+        height: 35px;
+    }
+
+}
