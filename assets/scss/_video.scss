@@ -12,6 +12,9 @@
         border-radius: 70px;
         flex-direction: column;
         border: 1px solid #4B4136;
+        @media (max-width: 526px) {
+            border-radius: 40px;
+        }
 
         h3{
             width: 272px;
@@ -19,6 +22,11 @@
             color: #FFAE2B;
             margin-bottom: 50px;
             border-bottom: 2px solid #ACA592;
+            @media (max-width: 526px) {
+                margin-bottom: 20px;
+                font-size: 24px;
+                width: 153px;
+            }
         }
 
         iframe {
@@ -35,11 +43,11 @@
             @media (max-width: 526px) {
                 width: 286px;
                 height: 146px;
+                margin-bottom: 20px;
             }
-
-            &:hover {
-                width: 765px;
-                transition: .5s;
+            @media (max-width: 426px) {
+                width: 212px;
+                height: 122px;
             }
         }
     }

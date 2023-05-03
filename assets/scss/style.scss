@@ -7,14 +7,38 @@ body {
     font-weight: 400;
     background: #000b15;
     font-family: 'Old Standard TT';
-
+    
+    
     h3 {
         font-weight: 400;
+        &::selection {
+           background-color: #FFAE2B;
+           color: #021e39;
+        }
     }
     
     p {
         color: wheat;
+        &::selection {
+            background-color: #FFAE2B;
+            color: #021e39;
+        }
     }
+
+    h1::selection {
+        background-color: #FFAE2B;
+        color: #021e39;
+    }
+
+    h2::selection {
+        background-color: #FFAE2B;
+        color: #021e39;
+    }   
+
+    h4::selection {
+        background-color: #FFAE2B;
+        color: #021e39;
+    }     
 }
 
 
