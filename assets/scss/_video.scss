@@ -3,6 +3,9 @@
     margin-top: 90px;
     margin-bottom: 90px;
     justify-content: center;
+    @media (max-width: 526px) {
+        margin-top: -30px;
+    }
     
     &_container {
         width: 70%;
@@ -36,11 +39,11 @@
                 width: 700px;
                 height: 355px;
             }
-            @media (max-width: 794px) {
+            @media (max-width: 894px) {
                 width: 506px;
                 height: 255px;
             }
-            @media (max-width: 526px) {
+            @media (max-width: 731px) {
                 width: 286px;
                 height: 146px;
                 margin-bottom: 20px;

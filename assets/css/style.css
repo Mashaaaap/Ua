@@ -527,6 +527,11 @@ body h4::selection {
   margin-bottom: 90px;
   justify-content: center;
 }
+@media (max-width: 526px) {
+  .video {
+    margin-top: -30px;
+  }
+}
 .video_container {
   width: 70%;
   display: flex;
@@ -565,13 +570,13 @@ body h4::selection {
     height: 355px;
   }
 }
-@media (max-width: 794px) {
+@media (max-width: 894px) {
   .video_container iframe {
     width: 506px;
     height: 255px;
   }
 }
-@media (max-width: 526px) {
+@media (max-width: 731px) {
   .video_container iframe {
     width: 286px;
     height: 146px;
